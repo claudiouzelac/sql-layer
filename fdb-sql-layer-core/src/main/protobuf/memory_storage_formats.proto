@@ -1,5 +1,7 @@
 // TreeMap akiban_information_schema protobuf extensions description file
 
+syntax = "proto2";
+
 import "akiban_information_schema.proto";
 
 package akiban_schema.protobuf;

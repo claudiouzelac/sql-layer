@@ -1,7 +1,10 @@
 // Protobuf storage meta-data description options
 // Custom field #1014 assigned by <CABpao3pfw1=H-9PAcJ38cMKgdkzceUpqaMBB5z0KqfitnzPmFg@mail.gmail.com>
 
+syntax = "proto2";
+
 package fdbsql.protobuf;
+
 option java_package = "com.foundationdb.server.store.format.protobuf";
 option java_outer_classname = "CustomOptions";
 

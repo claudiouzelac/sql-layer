@@ -1,4 +1,7 @@
+syntax = "proto2";
+
 package fdbsql.protobuf;
+
 option java_package = "com.foundationdb.server.store";
 option java_outer_classname = "TableChanges";
 

@@ -1,6 +1,8 @@
 // FDB akiban_information_schema protobuf extensions description file
 
-import "akiban_information_schema.proto";
+syntax = "proto2";
+
+import "protobuf/akiban_information_schema.proto";
 
 package akiban_schema.protobuf;
 option java_package = "com.foundationdb.ais.protobuf";

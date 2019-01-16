@@ -1,9 +1,12 @@
 // Special akiban_information_schema protobuf extensions description file
 
+syntax = "proto2";
+
 import "akiban_information_schema.proto";
 import "google/protobuf/descriptor.proto";
 
 package akiban_schema.protobuf;
+
 option java_package = "com.foundationdb.ais.protobuf";
 option java_outer_classname = "CommonProtobuf";
 

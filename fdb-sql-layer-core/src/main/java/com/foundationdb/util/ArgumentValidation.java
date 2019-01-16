@@ -64,13 +64,13 @@ public final class ArgumentValidation {
 
     public static void isSame(String oneName, Object one, String twoName, Object two) {
         if (one != two) {
-            throw new IllegalArgumentException(String.format("%s(%d) != %s(%d)", oneName, one, twoName, two));
+            throw new IllegalArgumentException(String.format("%s(%d) != %s(%d)", oneName, (Integer)one, twoName, (Integer)two));
         }
     }
 
     public static void isNotSame(String oneName, Object one, String twoName, Object two) {
         if (one == two) {
-            throw new IllegalArgumentException(String.format("%s(%d) == %s(%d)", oneName, one, twoName, two));
+            throw new IllegalArgumentException(String.format("%s(%d) == %s(%d)", oneName, (Integer)one, twoName, (Integer)two));
         }
     }
 

@@ -1,6 +1,9 @@
 // Master akiban_information_schema protobuf description file
 
+syntax = "proto2";
+
 package akiban_schema.protobuf;
+
 option java_package = "com.foundationdb.ais.protobuf";
 option java_outer_classname = "AISProtobuf";
 

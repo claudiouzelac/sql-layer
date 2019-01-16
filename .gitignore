@@ -5,3 +5,9 @@ plugins/
 
 # Bazel
 bazel-*
+
+.project
+.settings
+.vscode
+*/.classpath
+*/.project
